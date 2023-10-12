@@ -1,0 +1,25 @@
+{
+  "name": "react-be-app",
+  "version": "1.0.0",
+  "description": "Simple DB App communicating with AmazonDB in AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalyan6013/react-be-app.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "HemanthKalyan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1472.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
