@@ -9,8 +9,8 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.get("/user", getUsers);
-app.post("/user", addUser);
+app.get("/userData", getUsers);
+app.post("/userData", addUser);
 
 app.get('/', (req, res) => {
     res.send({ message: `Server is running on ${PORT} ENV ${JSON.stringify(process.env)}` });
